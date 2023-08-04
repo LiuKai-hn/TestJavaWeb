@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TestHTML_demo_01" />
+        <module name="TestSevlet" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="TestHTML_demo_01" target="1.8" />
       <module name="TestJavaWeb" target="1.8" />
+      <module name="TestServlet" target="1.8" />
+      <module name="TestSevlet" target="1.8" />
+      <module name="TestSpringMVC" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
