@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>这是我的第一个网页</title>
+</head>
+<body>
+<table border="1" width="300px" cellspacing="0" cellpadding="4">
+<tr>
+    <th>name</th>
+    <th>门派</th>
+    <th>age</th>
+</tr>
+    <tr>
+        <td>lk</td>
+        <td>少林</td>
+        <td>男</td>
+    </tr>
+
+</table>
+<hr/>
+
+<table border="1" cellspacing="0" cellpadding="4" width="300">
+    <tr>
+        <th>名称</th>
+        <th>单价</th>
+        <th>数量</th>
+        <th>小计</th>
+        <th>操作</th>
+    </tr>
+    <tr align="center">
+        <td>苹果</td>
+        <td>2</td>
+        <td>20</td>
+        <td>100</td>
+        <td><img src="imgs/delete.png" width="20" height="20"/></td>
+    </tr>
+    <tr align="center">
+        <td>菠萝</td>
+        <td>5</td>
+        <td>10</td>
+        <td>50</td>
+        <td><img src="imgs/delete.png" width="20" height="20"/></td>
+    </tr>
+    <tr align="center">
+        <td>香蕉</td>
+        <td>2</td>
+        <td>20</td>
+        <td>100</td>
+        <td><img src="imgs/delete.png" width="20" height="20"/></td>
+    </tr>
+</table>
+<hr/>
+<!-- 合并单元格  -->
+<table border="1" cellspacing="0" cellpadding="4" width="300">
+    <tr>
+        <th>名称</th>
+        <th>单价</th>
+        <th>数量</th>
+        <th>小计</th>
+        <th>操作</th>
+    </tr>
+    <tr align="center">
+        <td>苹果</td>
+        <td rowspan="2">2</td><!--rowspan 行合并 2表示跨两行合并 -->
+        <td>20</td>
+        <td>100</td>
+        <td><img src="imgs/delete.png" width="20" height="20"/></td>
+    </tr>
+    <tr align="center">
+        <td>菠萝</td>
+<!--        <td>15</td>-->
+        <td>3</td>
+        <td>45</td>
+        <td><img src="imgs/delete.png" width="20" height="20"/></td>
+    </tr>
+    <tr align="center">
+        <td>香蕉</td>
+        <td>5</td>
+        <td>20</td>
+        <td>100</td>
+        <td><img src="imgs/delete.png" width="20" height="20"/></td>
+    </tr>
+    <tr>
+        <td>总计</td>
+        <td colspan="4" align="center">181</td>
+    </tr>
+</table>
+</body>
+</html>
+
+<!--
+table  为表格
+tr 行
+td 列
+cellspacing  将单元格之间的空隙赋值为0，就是正常的单元格
+
+table 有以下 属性已经被放弃了：
+border
+width
+cellspacing
+cellpadding
+... 只要与格式有关的都被样式模板替代了
+-->
