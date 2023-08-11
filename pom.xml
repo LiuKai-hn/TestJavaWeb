@@ -10,9 +10,20 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>TestHTML_demo_01</module>
-        <module>TestSevlet</module>
-        <module>TestSevlet</module>
+        <module>TestServlet_01</module>
+        <module>TestJDBC</module>
+        <module>TestServlet_02</module>
+        <module>TestThymeleaf</module>
+        <module>TestHDFS</module>
+        <module>TestThymeleaf_01</module>
     </modules>
-
+<dependencies>
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.33</version>
+    </dependency>
+</dependencies>
 
 </project>
