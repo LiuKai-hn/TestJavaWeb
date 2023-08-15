@@ -2,20 +2,31 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="TestHDFS" />
+        <module name="TestThymeleaf" />
+        <module name="TestServlet_02" />
+        <module name="TestThymeleaf_01" />
+        <module name="TestServlet_01" />
+        <module name="TestJDBC" />
         <module name="TestHTML_demo_01" />
-        <module name="TestSevlet" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="TestHDFS" target="1.8" />
       <module name="TestHTML_demo_01" target="1.8" />
       <module name="TestJavaWeb" target="1.8" />
+      <module name="TestJDBC" target="1.8" />
       <module name="TestServlet" target="1.8" />
-      <module name="TestSevlet" target="1.8" />
+      <module name="TestServlet_01" target="1.8" />
+      <module name="TestServlet_02" target="1.8" />
       <module name="TestSpringMVC" target="1.8" />
+      <module name="TestThymeleaf" target="1.8" />
+      <module name="TestThymeleaf_01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

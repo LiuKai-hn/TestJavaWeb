@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestHDFS/TestHDFS.iml" filepath="$PROJECT_DIR$/TestHDFS/TestHDFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestHTML_demo_01/TestHTML_demo_01.iml" filepath="$PROJECT_DIR$/TestHTML_demo_01/TestHTML_demo_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TestSevlet/TestSevlet.iml" filepath="$PROJECT_DIR$/TestSevlet/TestSevlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestJDBC/TestJDBC.iml" filepath="$PROJECT_DIR$/TestJDBC/TestJDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestServlet_01/TestServlet_01.iml" filepath="$PROJECT_DIR$/TestServlet_01/TestServlet_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestServlet_02/TestServlet_02.iml" filepath="$PROJECT_DIR$/TestServlet_02/TestServlet_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestSpringMVC.iml" filepath="$PROJECT_DIR$/TestSpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestThymeleaf/TestThymeleaf.iml" filepath="$PROJECT_DIR$/TestThymeleaf/TestThymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestThymeleaf_01/TestThymeleaf_01.iml" filepath="$PROJECT_DIR$/TestThymeleaf_01/TestThymeleaf_01.iml" />
     </modules>
   </component>
 </project>

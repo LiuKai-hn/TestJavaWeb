@@ -13,9 +13,9 @@
         <module>TestServlet_01</module>
         <module>TestJDBC</module>
         <module>TestServlet_02</module>
-        <module>TestThymeleaf</module>
         <module>TestHDFS</module>
         <module>TestThymeleaf_01</module>
+        <module>TestThymeleaf</module>
     </modules>
 <dependencies>
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -24,6 +24,20 @@
         <artifactId>mysql-connector-java</artifactId>
         <version>8.0.33</version>
     </dependency>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.20</version>
+        <scope>provided</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf -->
+    <dependency>
+        <groupId>org.thymeleaf</groupId>
+        <artifactId>thymeleaf</artifactId>
+        <version>3.0.12.RELEASE</version>
+    </dependency>
+
+
 </dependencies>
 
 </project>
