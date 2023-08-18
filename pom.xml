@@ -14,8 +14,10 @@
         <module>TestJDBC</module>
         <module>TestServlet_02</module>
         <module>TestHDFS</module>
-        <module>TestThymeleaf_01</module>
         <module>TestThymeleaf</module>
+        <module>TestThymeleaf_FruitPage</module>
+        <module>pro13-fruit1.8-mvc</module>
+        <module>pro14-fruit1.9-dispatcherServlet</module>
     </modules>
 <dependencies>
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -30,7 +32,6 @@
         <version>1.18.20</version>
         <scope>provided</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf -->
     <dependency>
         <groupId>org.thymeleaf</groupId>
         <artifactId>thymeleaf</artifactId>

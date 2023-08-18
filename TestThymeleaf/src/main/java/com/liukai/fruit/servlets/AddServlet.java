@@ -3,6 +3,7 @@ package com.liukai.fruit.servlets;
 import com.liukai.fruit.dao.FruitDAO;
 import com.liukai.fruit.dao.impl.FruitDAOImpl;
 import com.liukai.fruit.dao.pojo.Fruit;
+import com.liukai.myssm.servlets.ViewBaseServlet;
 
 import javax.jws.WebService;
 import javax.servlet.ServletException;
@@ -16,8 +17,8 @@ import java.io.IOException;
  * @Author：liukai
  * @Date：2023/8/15 16:11
  */
-@WebServlet("/add")
-public class AddServlet extends HttpServlet {
+@WebServlet("/add.do")
+public class AddServlet extends ViewBaseServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -45,5 +46,7 @@ public class AddServlet extends HttpServlet {
         boolean flag = fruitDAO.addFruit(new Fruit(0 , fname , price , fcount , remark));
 
         System.out.println(flag ? "添加成功！" : "添加失败！");
+
+        super.processTemplate("index",request,response);
     }
 }
