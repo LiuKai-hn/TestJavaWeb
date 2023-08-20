@@ -33,6 +33,7 @@ public class DispatcherServlet extends ViewBaseServlet {
     public DispatcherServlet(){
     }
 
+    // servlet 原始的 init() 方法 ，主要作用是它产生的@WebServlet
     public void init(){
         try {
             InputStream inputStream = getClass().getClassLoader().getResourceAsStream("applicationContext.xml");
