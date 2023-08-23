@@ -18,6 +18,8 @@
         <module>TestThymeleaf_FruitPage</module>
         <module>pro13-fruit1.8-mvc</module>
         <module>pro14-fruit1.9-dispatcherServlet</module>
+        <module>pro15-fruit20-controller</module>
+        <module>pro16-fruit21-controller2</module>
     </modules>
 <dependencies>
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
