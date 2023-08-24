@@ -156,6 +156,6 @@ public class FruitController{
         //物理视图名称 ：   view-prefix + 逻辑视图名称 + view-suffix
         //所以真实的视图名称是：      /       index       .html
         //super.processTemplate("index", request, response);
-        return "redirect:fruit.do";
+        return "index";
     }
 }
