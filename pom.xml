@@ -21,6 +21,7 @@
         <module>pro15-fruit20-controller</module>
         <module>pro16-fruit21-controller2</module>
         <module>pro17-fruit22-mvc-ioc</module>
+        <module>pro18-fruit-23-mvc-filter</module>
     </modules>
 <dependencies>
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
